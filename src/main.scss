@@ -90,4 +90,12 @@ h6 {
 
 a {
   color: var(--lc-color);
+
+  &:before {
+    content: '>';
+  }
+
+  &:after {
+    content: '<';
+  }
 }

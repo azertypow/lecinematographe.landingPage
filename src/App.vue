@@ -31,7 +31,7 @@
                             date="15 octobre 2023"
                     >
                         LANCEMENT DE LA CAMPAGNE DE FINANCEMENT PARTICIPATIF <a
-                            href="/#">&lt;&nbsp;WEMAKEIT&nbsp;&gt;</a>
+                            href="/#">WEMAKEIT</a>
                     </app-date>
                 </div>
 
