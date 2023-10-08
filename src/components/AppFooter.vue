@@ -30,22 +30,18 @@
                         <p><a href="#" class="inf-btn">&laquo;</a></p>
                     </div>
                     <div class="inf-content">
-                        <div class="inf-input inf-input-text">
-                            <input
-                                type="text"
-                                name="inf[1]"
-                                data-inf-meta="1"
-                                data-inf-error="Merci de renseigner une adresse email"
-                                required="required"
-                                placeholder="Email"
-                            >
-                        </div>
-                        <div class="inf-submit">
-                            <input type="submit"
-                                   name=""
-                                   value="Envoyer"
-                            >
-                        </div>
+                        <input
+                            type="text"
+                            name="inf[1]"
+                            data-inf-meta="1"
+                            data-inf-error="Merci de renseigner une adresse email"
+                            required="required"
+                            placeholder="Votre Email"
+                        >
+                        <input type="submit"
+                               name=""
+                               value="Envoyer"
+                        >
                     </div>
                 </div>
             </form>
@@ -69,5 +65,45 @@ defineProps<{
 
 <style lang="scss" scoped >
 .v-app-footer {
+    background: var(--lc-color);
+}
+
+.inf-main_76f376382a50bd4859e50a81e701da10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem .5rem;
+    box-sizing: border-box;
+    height: 2rem;
+}
+
+.inf-content {
+    display: flex;
+    align-items: center;
+
+    > input {
+        font-family: "DIN Dong", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        box-sizing: border-box;
+        border: none;
+        display: block;
+        font-size: inherit;
+        line-height: inherit;
+        height: 1rem;
+    }
+
+    [type="text"] {
+        background: transparent;
+        border-bottom: solid 2px white;
+        color: white;
+
+        &::placeholder {
+            color: white;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
 }
 </style>
