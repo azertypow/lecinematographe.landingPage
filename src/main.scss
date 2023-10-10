@@ -44,6 +44,9 @@ body {
 #app {
   margin: 0 auto;
   max-width: 1280px;
+  box-sizing: border-box;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 
@@ -69,6 +72,13 @@ h3 {
   border-radius: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 1100px) {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 h4 {
@@ -79,6 +89,20 @@ h4 {
 p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 1100px) {
+    font-size: .8rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 750px) {
+    font-size: .7rem;
+    line-height: .85rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 h6 {

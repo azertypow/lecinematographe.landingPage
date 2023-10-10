@@ -10,6 +10,11 @@
                 class="v-app__content"
         >
             <section
+                class="v-app__section"
+            >
+                <p>Bienvenuexs sur le site internet du&nbsp;Cinématographe</p>
+            </section>
+            <section
                     class="v-app__section"
             >
                 <h2>ACTUALITÉS</h2>
@@ -20,7 +25,7 @@
                     <app-date
                             date="12 novembre 2023"
                     >
-                        LOTO DE SOUTIEN 11 H 30 - 16 H 30, SALLE DES FÊTES DU CASINO DE MONTBENON
+                        LOTO DE SOUTIEN 11 H 30 - 16 H 30, SALLE DES FÊTES DU CASINO DE&nbsp;MONTBENON
                         <br>VENEZ JOUER AU LOTO ET MANGER DES GATEAUX
                     </app-date>
                 </div>
@@ -35,9 +40,31 @@
                     </app-date>
                 </div>
 
-                <h3
-                        style="margin-top: 4rem"
-                >Presse</h3>
+                <div
+                    class="v-app__info_container"
+                >
+                    <section class="v-app__info" >
+                        <h3
+                            class="v-app__info__title"
+                        >Presse</h3>
+                        <div
+                            class="v-app__info__slot"
+                        >
+                            <div
+                                class="v-app__info__slot__content"
+                            >
+                                <p>ARTICLE DU 24 HEURES
+                                    <br><a href="">LIRE L’ARTICLE </a>
+                                </p>
+                                <img
+                                    class="v-app__info__container__img"
+                                    alt="article cover"
+                                    src="./assets/presse_24_heures_cinematographe.jpeg"
+                                >
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
             </section>
 
@@ -149,4 +176,28 @@ import AppFooter from "./components/AppFooter.vue";
     margin-top: 2rem;
   }
 }
+
+.v-app__info_container {
+    .v-app__info__slot {
+        box-sizing: border-box;
+        padding-left: 5rem;
+
+        @media (max-width: 900px) {
+            padding-left: 0;
+        }
+
+        .v-app__info__slot__content {
+            border-top: solid 1px white;
+            border-bottom: solid 1px white;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .v-app__info__container__img {
+        display: block;
+        max-width: 10rem;
+    }
+}
+
 </style>

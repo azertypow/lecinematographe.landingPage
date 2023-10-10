@@ -31,7 +31,7 @@
                     </div>
                     <div class="inf-content">
                         <input
-                            type="text"
+                            type="email"
                             name="inf[1]"
                             data-inf-meta="1"
                             data-inf-error="Merci de renseigner une adresse email"
@@ -45,6 +45,45 @@
                     </div>
                 </div>
             </form>
+        </div>
+
+        <div
+            class="v-app-footer__content"
+        >
+            <div
+                class="v-app-footer__content__left"
+            >
+                <img
+                    class="v-app-footer__content__img"
+                    alt="photo du cinéma"
+                    src="../assets/cinematographe_web.jpeg"  />
+
+                <div
+                    class="v-app-footer__content__text"
+                >
+                    <p>
+                        LE CINÉMATOGRAPHE
+                        <br>Casino de Montbenon
+                        <br>All. Ernest-Ansermet 3
+                        <br>1003 Lausanne
+                    </p>
+                    <p>
+                        nouveau-cinematographe@proton.me
+                    </p>
+
+                </div>
+            </div>
+
+            <div
+                class="v-app-footer__content__right"
+            >
+                <p>
+                    Développement : Nicolas Baldran
+                    <br>Typographie : <a href="https://typotheque.genderfluid.space/DINdong.html" >Dindong</a> par Clara Sambot
+                    <br>Graphisme : Clovis Duran
+                </p>
+            </div>
+
         </div>
     </footer>
 </template>
@@ -65,7 +104,12 @@ defineProps<{
 
 <style lang="scss" scoped >
 .v-app-footer {
+}
+
+.v-app-footer__newsletter-container {
     background: var(--lc-color);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .inf-main_76f376382a50bd4859e50a81e701da10 {
@@ -92,7 +136,7 @@ defineProps<{
         height: 1rem;
     }
 
-    [type="text"] {
+    [type="email"] {
         background: transparent;
         border-bottom: solid 2px white;
         color: white;
@@ -103,6 +147,89 @@ defineProps<{
 
         &:focus-visible {
             outline: none;
+        }
+    }
+}
+
+.v-app-footer__content {
+    display: flex;
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+    }
+}
+
+.v-app-footer__content__left {
+    display: flex;
+    width: 50%;
+
+    @media (max-width: 1100px) {
+        width: 100%;
+    }
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+    }
+}
+
+.v-app-footer__content__img {
+    display: block;
+    width: calc(100% / 4 * 1);
+    object-fit: contain;
+    object-position: top;
+
+    @media (max-width: 1100px) {
+        width: 50%;
+    }
+
+    @media (max-width: 750px) {
+        width: 100%;
+        max-width: 10rem;
+    }
+}
+
+.v-app-footer__content__text {
+    box-sizing: border-box;
+    width: calc(100% / 4 * 3);
+    padding-left: .5rem;
+
+    @media (max-width: 1100px) {
+        width: 50%;
+    }
+
+    @media (max-width: 750px) {
+        width: 100%;
+        margin-top: .5rem;
+        padding-left: 0;
+    }
+
+    > p {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: .5rem;
+        line-height: .75rem;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.v-app-footer__content__right {
+    width: 50%;
+
+    @media (max-width: 1100px) {
+        margin-top: 1rem;
+    }
+
+    > p {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: .5rem;
+        line-height: .75rem;
+
+        &:first-child {
+            margin-top: 0;
         }
     }
 }
