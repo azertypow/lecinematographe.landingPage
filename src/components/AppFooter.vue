@@ -35,7 +35,7 @@
                             name="inf[1]"
                             data-inf-meta="1"
                             data-inf-error="Merci de renseigner une adresse email"
-                            required="required"
+                            required
                             placeholder="Votre Email"
                         >
                         <input type="submit"
@@ -93,8 +93,8 @@
 
 
 <script lang="ts" setup>
-defineProps<{
-}>()
+// defineProps<{
+// }>()
 
 </script>
 
