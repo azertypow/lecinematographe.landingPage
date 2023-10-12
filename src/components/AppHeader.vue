@@ -7,7 +7,7 @@
         />
         <div
             class="v-app-header__info"
-        >OUVERTURE EN MARS 2024</div>
+        >OUVERTURE EN MARS&nbsp;2024</div>
     </header>
 </template>
 
