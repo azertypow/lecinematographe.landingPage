@@ -48,19 +48,19 @@ defineProps<{
         padding-top: 1rem;
         padding-bottom: 1rem;
 
-        @media (max-width: 1100px) {
-            font-size: .7rem;
-            line-height: .8rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        @media (max-width: 750px) {
-            font-size: .6rem;
-            line-height: .7rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
+        //@media (max-width: 1100px) {
+        //    font-size: .7rem;
+        //    line-height: .8rem;
+        //    margin-top: 1rem;
+        //    margin-bottom: 1rem;
+        //}
+        //
+        //@media (max-width: 750px) {
+        //    font-size: .6rem;
+        //    line-height: .7rem;
+        //    margin-top: 1rem;
+        //    margin-bottom: 1rem;
+        //}
     }
 }
 
