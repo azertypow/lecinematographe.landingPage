@@ -117,14 +117,27 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 1rem .5rem;
+    padding: .5rem .5rem;
     box-sizing: border-box;
-    height: 2rem;
+
+    h4 {
+        margin: 0;
+    }
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+    }
 }
 
 .inf-content {
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+
+    @media (max-width: 1100px) {
+        width: 100%;
+        flex-direction: column;
+    }
 
     > input {
         font-family: "DIN Dong", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -134,6 +147,12 @@
         font-size: inherit;
         line-height: inherit;
         height: 1rem;
+        max-width: 100%;
+
+        @media (max-width: 1100px) {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
     }
 
     [type="email"] {
@@ -147,6 +166,10 @@
 
         &:focus-visible {
             outline: none;
+        }
+
+        @media (max-width: 1100px) {
+            margin-top: 1rem;
         }
     }
 }
