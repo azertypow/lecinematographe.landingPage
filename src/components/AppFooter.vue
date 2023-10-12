@@ -230,7 +230,7 @@
         margin-top: .5rem;
         margin-bottom: .5rem;
         font-size: .5rem;
-        line-height: .75rem;
+        line-height: .65rem;
 
         &:first-child {
             margin-top: 0;
@@ -243,13 +243,14 @@
 
     @media (max-width: 1100px) {
         margin-top: 1rem;
+        width: 100%;
     }
 
     > p {
         margin-top: .5rem;
         margin-bottom: .5rem;
         font-size: .5rem;
-        line-height: .75rem;
+        line-height: .65rem;
 
         &:first-child {
             margin-top: 0;

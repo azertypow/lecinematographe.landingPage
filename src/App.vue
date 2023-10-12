@@ -182,6 +182,7 @@ import AppFooter from "./components/AppFooter.vue";
 
     .v-app__info__container__img {
         display: block;
+        width: 100%;
         max-width: 10rem;
     }
 }
