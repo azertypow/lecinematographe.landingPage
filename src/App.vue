@@ -20,17 +20,19 @@
                     <app-date
                             date="12 novembre 2023"
                     >
-                        LOTO DE SOUTIEN 11 H 30 - 16 H 30, SALLE DES FÊTES DU CASINO DE&nbsp;MONTBENON
-                        <br>VENEZ JOUER AU LOTO ET MANGER DES GATEAUX
+                        Bienvenue dès 11h, Loto de 12h à 15h30 (pause de 14h à 14h30)
+                        <br>Carton en vente sur place à 9.- Chf. Lots cumulables sur une même série. 1 série royale.
+                        <br>Bar et petite restauration sur place (paiement en espèces)
+                        <br>Salle des Fêtes du Casino de Montbenon
                     </app-date>
                 </div>
                 <div
                         class="v-app__date_container"
                 >
                     <app-date
-                            date="15 octobre 2023"
+                            date="22 octobre 2023"
                     >
-                        LANCEMENT DE LA CAMPAGNE DE FINANCEMENT PARTICIPATIF <a
+                        Lancement de la campagne de financement participatif wemakeit<a
                             href="/#">WEMAKEIT</a>
                     </app-date>
                 </div>
