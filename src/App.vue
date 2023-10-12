@@ -10,11 +10,6 @@
                 class="v-app__content"
         >
             <section
-                class="v-app__section"
-            >
-                <p>Bienvenuexs sur le site internet du&nbsp;Cinématographe</p>
-            </section>
-            <section
                     class="v-app__section"
             >
                 <h2>ACTUALITÉS</h2>
