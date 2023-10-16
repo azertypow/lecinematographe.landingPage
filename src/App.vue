@@ -124,6 +124,9 @@
                         <br/>Gysèle Giannuzzi
                         <br/>Alice Riva
                     </p>
+                    <p>Nous contacter
+                        <br><a target="_blank" href="mailto:nouveau-cinematographe@proton.me" >nouveau-cinematographe@proton.me</a>
+                    </p>
                 </div>
             </section>
         </div>
