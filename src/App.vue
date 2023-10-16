@@ -19,6 +19,7 @@
                 >
                     <app-date
                             date="12 novembre 2023"
+                            src="./instagram_loto.jpeg"
                     >
                         Bienvenue dès 11h, Loto de 12h à 15h30 (pause de 14h à 14h30)
                         <br>Carton en vente sur place à 9.- Chf. Lots cumulables sur une même série. 1 série royale.
