@@ -113,9 +113,9 @@
                     <h2>L’ÉQUIPE</h2>
 
                     <p>
-                        Nous sommes quatre professionnelle·x·s de la culture, forte·x·s d’expériences dans le domaine
-                        cinématographique, allant de l’exploitation de salles, la programmation en festivals, l’enseignement
-                        universitaire, à la gestion de projets et la médiation culturelle. Aujourd’hui, nous mettons en
+                        Nous sommes quatre professionnellexs de la culture, fortexs d'expériences dans le domaine
+                        cinématographique, allant de l'exploitation de salles, la programmation en festivals, l’enseignement
+                        universitaire, à la gestion de projets et la médiation culturelle. Aujourd'hui, nous mettons en
                         commun nos compétences pour assurer un avenir cinéphile, vivant et inclusif au Cinématographe.
                     </p>
                     <p>
