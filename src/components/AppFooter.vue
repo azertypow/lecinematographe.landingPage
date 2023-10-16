@@ -109,7 +109,7 @@
 .v-app-footer__newsletter-container {
     background: var(--lc-color);
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .inf-main_76f376382a50bd4859e50a81e701da10 {
