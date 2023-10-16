@@ -172,6 +172,11 @@
             margin-top: 1rem;
         }
     }
+
+    > input[type="submit"] {
+        font-size: .5rem;
+        margin-left: .5rem;
+    }
 }
 
 .v-app-footer__content {
