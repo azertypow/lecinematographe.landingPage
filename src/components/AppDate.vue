@@ -67,6 +67,7 @@ defineProps<{
     display: block;
     width: 100%;
     max-width: 10rem;
+    margin-top: 1rem;
 }
 
 </style>
