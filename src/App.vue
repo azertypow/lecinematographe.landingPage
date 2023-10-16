@@ -32,7 +32,6 @@
                 >
                     <app-date
                             date="22 octobre 2023"
-                            src="./instagram_loto.jpeg"
                     >
                         Lancement de la campagne de financement participatif wemakeit<a
                             href="/#">WEMAKEIT</a>
@@ -107,7 +106,7 @@
 
 
                     <h6>
-                        Nota bene Si vous cherchez le programme actuel du Cinématographe, rendez&#x2011;vous sur le site
+                        <strong>Nota bene</strong>&nbsp;: Si vous cherchez le programme actuel du Cinématographe, rendez&#x2011;vous sur le site
                         internet de la <a href="https://live.cinematheque.ch/" target="_blank">Cinémathèque Suisse.</a>
                     </h6>
 
