@@ -31,6 +31,7 @@
                 >
                     <app-date
                             date="22 octobre 2023"
+                            src="./instagram_loto.jpeg"
                     >
                         Lancement de la campagne de financement participatif wemakeit<a
                             href="/#">WEMAKEIT</a>

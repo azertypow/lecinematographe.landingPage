@@ -9,7 +9,15 @@
             <div
                 class="v-app-date__slot__content"
             >
-                <slot/>
+                <div>
+                    <slot/>
+                </div>
+                <img
+                    v-if="src"
+                    class="v-app-date__img"
+                    alt="article cover"
+                    :src="src"
+                >
             </div>
         </div>
     </section>
@@ -22,6 +30,7 @@
 <script lang="ts" setup>
 defineProps<{
     date: string,
+    src?: string,
 }>()
 
 </script>
@@ -32,6 +41,10 @@ defineProps<{
 
 <style lang="scss" scoped >
 .v-app-date {
+}
+
+.v-app-date__slot__content {
+
 }
 
 .v-app-date__slot {
@@ -47,21 +60,13 @@ defineProps<{
         border-bottom: solid 1px white;
         padding-top: 1rem;
         padding-bottom: 1rem;
-
-        //@media (max-width: 1100px) {
-        //    font-size: .7rem;
-        //    line-height: .8rem;
-        //    margin-top: 1rem;
-        //    margin-bottom: 1rem;
-        //}
-        //
-        //@media (max-width: 750px) {
-        //    font-size: .6rem;
-        //    line-height: .7rem;
-        //    margin-top: 1rem;
-        //    margin-bottom: 1rem;
-        //}
     }
+}
+
+.v-app-date__img {
+    display: block;
+    width: 100%;
+    max-width: 10rem;
 }
 
 </style>
