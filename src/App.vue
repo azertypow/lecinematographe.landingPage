@@ -21,7 +21,8 @@
                             date="12 novembre 2023"
                             src="./instagram_loto.jpeg"
                     >
-                        Bienvenue dès 11h, Loto de 12h à 15h30 (pause de 14h à 14h30)
+                        Loto de soutien
+                        <br>Bienvenue dès 11h, Loto de 12h à 15h30 (pause de 14h à 14h30)
                         <br>Carton en vente sur place à 9.- Chf. Lots cumulables sur une même série. 1 série royale.
                         <br>Bar et petite restauration sur place (paiement en espèces)
                         <br>Salle des Fêtes du Casino de Montbenon
@@ -52,7 +53,10 @@
                                 class="v-app__info__slot__content"
                             >
                                 <p>Stéphanie Arboit, «&nbsp;Le Cinématographe va projeter un nouveau chapitre de sa vie&nbsp;», 24 Heures, 11 juillet 2023
-                                    <br><a href="https://www.24heures.ch/le-cinematographe-va-projeter-un-nouveau-chapitre-de-sa-vie-466711780457">LIRE L’ARTICLE </a>
+                                    <br><a
+                                            target="_blank"
+                                            href="https://www.24heures.ch/le-cinematographe-va-projeter-un-nouveau-chapitre-de-sa-vie-466711780457"
+                                        >LIRE L’ARTICLE </a>
                                 </p>
                                 <img
                                     class="v-app__info__container__img"
@@ -66,13 +70,16 @@
                             >
                                 <p>
                                     Alexandre Ducommun, « Un nouveau départ pour le Cinématographe », Cinébulletin, 11 juillet 2023
-                                    <br><a href="https://cinebulletin.ch/fr_CH/news/un-nouveau-depart-pour-le-cinematographe">LIRE L’ARTICLE </a>
+                                    <br><a
+                                        target="_blank"
+                                        href="https://cinebulletin.ch/fr_CH/news/un-nouveau-depart-pour-le-cinematographe"
+                                    >LIRE L’ARTICLE </a>
                                 </p>
 
                                 <img
                                     class="v-app__info__container__img"
                                     alt="article cover"
-                                    src="./assets/presse_24_heures_cinematographe.jpeg"
+                                    src="./assets/article_2.jpeg"
                                 >
                             </div>
                         </div>
