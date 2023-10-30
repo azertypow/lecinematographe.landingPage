@@ -32,10 +32,11 @@
                         class="v-app__date_container"
                 >
                     <app-date
-                            date="22 octobre 2023"
+                            date="29 octobre 2023"
                     >
                         Lancement de la campagne de financement participatif wemakeit<a
-                            href="/#">WEMAKEIT</a>
+                            target="_blank"
+                            href="https://wemakeit.com/projects/le-nouveau-cinematographe">WEMAKEIT</a>
                     </app-date>
                 </div>
 
@@ -105,7 +106,7 @@
                         Sélectionné par la Ville de Lausanne à la suite d’un appel à projets, le Collectif du nouveau Cinématographe assurera la gestion, la programmation et l’exploitation de la salle dès mars 2024. Au centre de notre projet réside l’envie de partager avec tous les publics un cinéma de qualité en dialogue avec des enjeux de société contemporains. À travers un large choix de sorties et de reprises, nous ferons la part belle aux nouveautés et valoriserons un spectre varié de films, réalisés tant par des cinéastes émergentexs que reconnuexs. La programmation du Cinématographe offrira également des cycles, des événements, une programmation destinée au jeune public, des actions de médiation et de nombreuses collaborations avec des festivals et des ciné-clubs.
                     </p>
                     <p>
-                        Durant l’automne 2023 et l’hiver 2024, le Collectif du nouveau Cinématographe organise divers événements afin de rencontrer les publics actuels et futurs de la salle. Pour mener à bien notre projet, nous comptons sur différents soutiens. Une collecte de fonds est lancée le 22 octobre 2023 pour répondre à nos besoins liés aux frais de reprise. Chaque contribution nous aidera à subvenir aux coûts de rénovation de la salle, à améliorer les espaces d'accueil et à créer une buvette conviviale.
+                        Durant l’automne 2023 et l’hiver 2024, le Collectif du nouveau Cinématographe organise divers événements afin de rencontrer les publics actuels et futurs de la salle. Pour mener à bien notre projet, nous comptons sur différents soutiens. Une collecte de fonds est lancée le 29 octobre 2023 pour répondre à nos besoins liés aux frais de reprise. Chaque contribution nous aidera à subvenir aux coûts de rénovation de la salle, à améliorer les espaces d'accueil et à créer une buvette conviviale.
                     </p>
                     <p>
                         Nous souhaitons faire du Cinématographe un lieu central de la vie culturelle lausannoise défendant une culture pour touxtes et le plaisir du cinéma en salle. Rejoignez-nous dans cette nouvelle aventure&nbsp;!
