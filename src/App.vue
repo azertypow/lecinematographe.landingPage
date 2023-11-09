@@ -23,7 +23,7 @@
                     >
                         Loto de soutien
                         <br>Bienvenue dès 11h, Loto de 12h à 15h30 (pause de 14h à 14h30)
-                        <br>Carton en vente sur place à 9.- Chf. Lots cumulables sur une même série. 1 série royale.
+                        <br>Cartons à usages multiples. Lots cumulables sur une même série. 1 série royale.
                         <br>Bar et petite restauration sur place (paiement en espèces)
                         <br>Salle des Fêtes du Casino de Montbenon
                     </app-date>
