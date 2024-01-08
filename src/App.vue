@@ -12,7 +12,17 @@
             <section
                     class="v-app__section"
             >
+                <div style="padding-top: 2rem; padding-bottom: 1rem;">
+                    L'équipe du Cinématographe vous souhaite une très bonne année et se réjouit de vous retrouver <span style="color: var(--lc-color)">le&nbsp;20&nbsp;mars 2024</span> pour l’ouverture officielle de la&nbsp;salle.
+                </div>
+
                 <h2>ACTUALITÉS</h2>
+
+                <app-date date="Levée de fonds Wemakeit">
+                    Un grand merci pour tous vos partages et soutiens. Grâce à votre aide, nous allons pouvoir démarrer les travaux de mise en place de notre buvette en février. On a hâte de vous y&nbsp;accueillir!
+                </app-date>
+
+                <h3 style="padding-top: 1rem; color: var(--lc-color); text-transform: uppercase">Évènements passés</h3>
 
                 <div
                         class="v-app__date_container"
@@ -44,9 +54,9 @@
                     class="v-app__info_container"
                 >
                     <section class="v-app__info" >
-                        <h3
+                        <h2
                             class="v-app__info__title"
-                        >Presse</h3>
+                        >Presse</h2>
                         <div
                             class="v-app__info__slot"
                         >
@@ -135,6 +145,20 @@
                     <p>Nous contacter
                         <br><a target="_blank" href="mailto:nouveau-cinematographe@proton.me" >nouveau-cinematographe@proton.me</a>
                     </p>
+
+                    <h2>Nous soutenir</h2>
+                    <div style="display: grid; grid-template-columns: repeat(1, 1fr) repeat(1, 10fr); gap: .5rem" >
+                        <div>
+                            <div>iban:</div>
+                            <div>BIC:</div>
+                            <div>Nom:</div>
+                        </div>
+                        <div>
+                            <div>CH52 0900 0000 1624 8177 6</div>
+                            <div>POFICHBEXXX</div>
+                            <div>Collectif du nouveau Cinématographe Lausanne</div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
