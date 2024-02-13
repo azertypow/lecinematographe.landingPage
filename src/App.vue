@@ -9,6 +9,52 @@
         <div
                 class="v-app__content"
         >
+            <div
+                class="v-app__newsletter-container"
+            >
+                <form
+                    method="post"
+                    action="https://newsletter.infomaniak.com/external/submit"
+                    class="v-app__newsletter-container__form"
+                    target="_blank"
+                >
+                    <input
+                        type="email"
+                        name="email"
+                        style="display:none"
+                    />
+                    <input type="hidden"
+                           name="key"
+                           value="eyJpdiI6ImxEQmYwMU52ZkM0OGl4TlBVQWs4YmJtb1wvZ2Q0MkpIcGlZY3RPblZGeUxZPSIsInZhbHVlIjoiVEpHXC93ZVwvcCtPMTFnMGNTclpuU1RRMzNLZ1pKdUV2dVF4bjVnV05HUW1JPSIsIm1hYyI6IjE4NjNiNjNhYzY2MTE4YmFlNmQ0NmQ2ZDg3MWE1ZmY0YTEyYzFhZDU4NTQzZjNiMzdjY2I5ZGUzMTVkYTk3MWMifQ=="
+                    >
+                    <input
+                        type="hidden"
+                        name="webform_id"
+                        value="15422"
+                    >
+
+                    <div class="inf-main_76f376382a50bd4859e50a81e701da10">
+                        <h4>Newsletter</h4>
+                        <div class="inf-success" style="display:none"><h4>C'est tout bon, merci !</h4>
+                            <p><a href="#" class="inf-btn">&laquo;</a></p>
+                        </div>
+                        <div class="inf-content">
+                            <input
+                                type="email"
+                                name="inf[1]"
+                                data-inf-meta="1"
+                                data-inf-error="Merci de renseigner une adresse email"
+                                required
+                                placeholder="Votre Email"
+                            >
+                            <input type="submit"
+                                   name=""
+                                   value="Envoyer"
+                            >
+                        </div>
+                    </div>
+                </form>
+            </div>
             <section
                     class="v-app__section"
             >
@@ -220,6 +266,79 @@ import AppFooter from "./components/AppFooter.vue";
         display: block;
         width: 100%;
         max-width: 10rem;
+    }
+}
+
+.v-app__newsletter-container {
+    background: var(--lc-color);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.inf-main_76f376382a50bd4859e50a81e701da10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: .5rem .5rem;
+    box-sizing: border-box;
+
+    h4 {
+        margin: 0;
+    }
+
+    @media (max-width: 1100px) {
+        flex-direction: column;
+    }
+}
+
+.inf-content {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+    @media (max-width: 1100px) {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    > input {
+        font-family: "DIN Dong", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        box-sizing: border-box;
+        border: none;
+        display: block;
+        font-size: inherit;
+        line-height: inherit;
+        height: 1rem;
+        max-width: 100%;
+
+        @media (max-width: 1100px) {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+    }
+
+    [type="email"] {
+        background: transparent;
+        border-bottom: solid 2px white;
+        color: white;
+
+        &::placeholder {
+            color: white;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+
+        @media (max-width: 1100px) {
+            margin-top: 1rem;
+        }
+    }
+
+    > input[type="submit"] {
+        font-size: .5rem;
+        margin-left: .5rem;
     }
 }
 
