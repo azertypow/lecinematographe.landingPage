@@ -68,7 +68,7 @@
                         <br>1003 Lausanne
                     </p>
                     <p>
-                        nouveau-cinematographe@proton.me
+                        <a target="_blank" href="mailto:contact@lecinematographe.ch" >contact@lecinematographe.ch</a>
                     </p>
 
                 </div>

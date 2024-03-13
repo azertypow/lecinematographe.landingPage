@@ -9,58 +9,103 @@
         <div
                 class="v-app__content"
         >
-            <div
-                class="v-app__newsletter-container"
-            >
-                <form
-                    method="post"
-                    action="https://newsletter.infomaniak.com/external/submit"
-                    class="v-app__newsletter-container__form"
-                    target="_blank"
-                >
-                    <input
-                        type="email"
-                        name="email"
-                        style="display:none"
-                    />
-                    <input type="hidden"
-                           name="key"
-                           value="eyJpdiI6ImxEQmYwMU52ZkM0OGl4TlBVQWs4YmJtb1wvZ2Q0MkpIcGlZY3RPblZGeUxZPSIsInZhbHVlIjoiVEpHXC93ZVwvcCtPMTFnMGNTclpuU1RRMzNLZ1pKdUV2dVF4bjVnV05HUW1JPSIsIm1hYyI6IjE4NjNiNjNhYzY2MTE4YmFlNmQ0NmQ2ZDg3MWE1ZmY0YTEyYzFhZDU4NTQzZjNiMzdjY2I5ZGUzMTVkYTk3MWMifQ=="
-                    >
-                    <input
-                        type="hidden"
-                        name="webform_id"
-                        value="15422"
-                    >
-
-                    <div class="inf-main_76f376382a50bd4859e50a81e701da10">
-                        <h4>Newsletter</h4>
-                        <div class="inf-success" style="display:none"><h4>C'est tout bon, merci !</h4>
-                            <p><a href="#" class="inf-btn">&laquo;</a></p>
-                        </div>
-                        <div class="inf-content">
-                            <input
-                                type="email"
-                                name="inf[1]"
-                                data-inf-meta="1"
-                                data-inf-error="Merci de renseigner une adresse email"
-                                required
-                                placeholder="Votre Email"
-                            >
-                            <input type="submit"
-                                   name=""
-                                   value="Envoyer"
-                            >
-                        </div>
-                    </div>
-                </form>
-            </div>
             <section
                     class="v-app__section"
             >
-                <div style="padding-top: 2rem; padding-bottom: 1rem;">
-                    L'équipe du Cinématographe vous souhaite une très bonne année et se réjouit de vous retrouver <span style="color: var(--lc-color)">le&nbsp;20&nbsp;mars 2024</span> pour l’ouverture officielle de la&nbsp;salle.
-                </div>
+                <h2 style="background: var(--lc-color--secondary)" >Pré-ouverture</h2>
+
+                <app-date date="19.03.24 - RIPPLES OF LIFE">
+                    <p>
+                        Surprise! Le Cinématographe vous invite à sa *Pré-ouverture* le 19 mars 2024 20h
+                        <br/>Ripples of Life (2021), en présence du réalisateur Wei Shujun
+                    </p>
+
+                    <h4>Synopsis</h4>
+                    <p>
+                        Un tournage a lieu dans la petite ville reculée de Yong’an. La venue de l’équipe du film bouleverse Gu, la patronne d’un petit restaurant. Elle rêve d’une autre vie et se fraie une place sur le tournage. Chen, devenue star de cinéma, revient dans sa ville natale où elle espère retrouver ses amie.x.s d'enfance et de bons souvenirs. Un débat sans fin persiste entre le réalisateur et le scénariste. Le tournage doit commencer, bien que le consensus ne soit jamais atteint
+                    </p>
+                    <p>
+                        Né à Pékin, Wei Shujun a commencé sa carrière dans le cinéma en tant qu’acteur à l’âge de 14 ans. Il est diplômé de l'Université de la Communication de Pékin. Son court métrage On the Border a reçu une mention spéciale à Cannes en 2018 ; son film Striding into the Wind était sélectionné en compétition en 2020, et son dernier long métrage Only the River Flows en séléction Un Certain Regard à Cannes l’année dernière.
+                    </p>
+
+                    <a
+                        class="v-app__inscription-container"
+                        target="_blank"
+                        href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
+                    >
+                        <h4>S'inscrire pour la Pré-ouverture</h4>
+                    </a>
+
+                    <img src="/images/Ripples_of_Life.jpeg"
+                         alt="image pour le film RIPPLES OF LIFE"
+                    >
+
+                    <h4>🍇 Infos billetterie</h4>
+                    <p>
+                        Réservation via <a target="_blank"
+                                           href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
+                    >billetterie@lecinematographe.ch</a>
+                    </p>
+                    <p>Merci d'indiquer clairement:</p>
+                    <ul>
+                        <li>la séance choisie (titre du film et date),</li>
+                        <li>le nombre de billets et tarifs (20 CHF soutien,</li>
+                        <li>15 CHF plein, 12 CHF réduit),</li>
+                        <li>ainsi que Nom/Prénom/Numero de téléphone par réservation.</li>
+                    </ul>
+
+                    <p>Paiement (cash, carte, twint) au moment du retrait au Cinématographe.</p>
+
+
+                </app-date>
+
+
+                <h2 style="background: var(--lc-color--ternary);" >OUVERTURE</h2>
+
+                <app-date date="20 mars 2024 - SOIREE D'OUVERTURE">
+                    <p>
+                        18h : apéritif et mot de bienvenue
+                        <br>20h : Blackbird Blackbird Blackberry (2023), avant-première en présence de lae réalisateurice Elene Naveriani, suivi d’un q&a
+                    </p>
+
+                    <h4>Synopsis</h4>
+                    <p>Etero,48 ans, vit dans un petit village de Géorgie. Elle n'a jamais voulu de mari. Elle chérit sa liberté, mais son choix de vivre seule fait l’objet de nombreux commérages de la part du voisinage. Lorsqu’elle tombe passionnément amoureuse d'un homme, elle se retrouve contrainte de faire un choix - poursuivre cette relation ou continuer à mener une vie indépendante. Etero doit faire face à ses sentiments et tenter de trouver son propre chemin vers le bonheur.</p>
+
+                    <h4>Lae cinéaste</h4>
+                    <p>
+                        Elene Naveriani a étudié la peinture à la State Academy of Art de Tbilissi. En 2011, iel a obtenu son master en études critiques curatoriales cybermédias, en 2014 son bachelor en cinéma à la Haute école d’art et de design de Genève. Son premier long métrage I Am Truly a Drop of Sun on Earth a été présenté en première à l’IFFR et primé aux festivals Entrevues de Belfort et à Valladolid. Wet Sand a été présenté en première à Locarno où il a remporté le Pardo du meilleur acteur.
+                    </p>
+
+                    <a
+                        style="background: var(--lc-color--ternary)"
+                        class="v-app__inscription-container"
+                        target="_blank"
+                        href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
+                    >
+                        <h4>S'inscrire pour la Pré-ouverture</h4>
+                    </a>
+
+                    <img src="/images/blackbird.jpeg"
+                         alt="image pour le film Blackbird Blackbird Blackberry"
+                    >
+
+                    <h4>🍇 Infos billetterie</h4>
+                    <p>
+                        Réservation via <a target="_blank"
+                                           href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
+                    >billetterie@lecinematographe.ch</a>
+                    </p>
+                    <p>Merci d'indiquer clairement:</p>
+                    <ul>
+                        <li>la séance choisie (titre du film et date),</li>
+                        <li>le nombre de billets et tarifs (20 CHF soutien,</li>
+                        <li>15 CHF plein, 12 CHF réduit),</li>
+                        <li>ainsi que Nom/Prénom/Numero de téléphone par réservation.</li>
+                    </ul>
+
+                    <p>Paiement (cash, carte, twint) au moment du retrait au Cinématographe.</p>
+                </app-date>
+
 
                 <h2>ACTUALITÉS</h2>
 
@@ -273,6 +318,26 @@ import AppFooter from "./components/AppFooter.vue";
     background: var(--lc-color);
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.v-app__inscription-container {
+    display: block;
+    background: var(--lc-color--secondary);
+    padding: .5rem;
+    color: inherit;
+    text-decoration: inherit;
+
+    &:before, &:after {
+        content: '';
+    }
+
+    > *:first-child {
+        margin-top: 0 !important;
+    }
+
+    > *:last-child {
+        margin-bottom: 0 !important;
+    }
 }
 
 .inf-main_76f376382a50bd4859e50a81e701da10 {

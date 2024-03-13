@@ -10,6 +10,8 @@
 :root {
 
   --lc-color: #0438D6;
+  --lc-color--secondary: #FF10ED;
+  --lc-color--ternary: #FF8D0C;
 
   --lc-header-height: 4rem;
 
@@ -43,6 +45,15 @@ body {
   line-height: 1rem;
   padding: 0;
   margin: 0;
+}
+
+ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  p + & {
+    margin-top: -1rem;
+  }
 }
 
 #app {
