@@ -82,7 +82,7 @@
                         target="_blank"
                         href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
                     >
-                        <h4>S'inscrire pour la Pré-ouverture</h4>
+                        <h4>S'inscrire pour l'ouverture</h4>
                     </a>
 
                     <img src="/images/blackbird.jpeg"
