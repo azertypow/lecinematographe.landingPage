@@ -189,7 +189,7 @@
                         <br/>Alice Riva
                     </p>
                     <p>Nous contacter
-                        <br><a target="_blank" href="mailto:nouveau-cinematographe@proton.me" >nouveau-cinematographe@proton.me</a>
+                        <br><a target="_blank" href="mailto:contact@lecinematographe.ch" >contact@lecinematographe.ch</a>
                     </p>
 
                     <h2>Nous soutenir</h2>
