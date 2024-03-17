@@ -62,7 +62,7 @@
 
                 <h2 style="background: var(--lc-color--ternary);" >OUVERTURE</h2>
 
-                <app-date date="20 mars 2024 - SOIREE D'OUVERTURE">
+                <app-date date="20 mars 2024 - SOIREE D'OUVERTURE (FILM COMPLET - bienvenuexs à l’apéritif)">
                     <p>
                         18h : apéritif et mot de bienvenue
                         <br>20h : Blackbird Blackbird Blackberry (2023), avant-première en présence de lae réalisateurice Elene Naveriani, suivi d’un q&a
@@ -76,34 +76,9 @@
                         Elene Naveriani a étudié la peinture à la State Academy of Art de Tbilissi. En 2011, iel a obtenu son master en études critiques curatoriales cybermédias, en 2014 son bachelor en cinéma à la Haute école d’art et de design de Genève. Son premier long métrage I Am Truly a Drop of Sun on Earth a été présenté en première à l’IFFR et primé aux festivals Entrevues de Belfort et à Valladolid. Wet Sand a été présenté en première à Locarno où il a remporté le Pardo du meilleur acteur.
                     </p>
 
-                    <a
-                        style="background: var(--lc-color--ternary)"
-                        class="v-app__inscription-container"
-                        target="_blank"
-                        href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
-                    >
-                        <h4>S'inscrire pour l'ouverture</h4>
-                    </a>
-
                     <img src="/images/blackbird.jpeg"
                          alt="image pour le film Blackbird Blackbird Blackberry"
                     >
-
-                    <h4>🍇 Infos billetterie</h4>
-                    <p>
-                        Réservation via <a target="_blank"
-                                           href="mailto:billetterie@lecinematographe.ch?subject=R%C3%A9servation%20billet%20-%20site&body=Bonjour%2C%0D%0A%0D%0AJ'aimerais%20r%C3%A9server%20pour%20la%20pr%C3%A9-ouverture%20du%2019%20mars%20ou%20l'ouverture%20du%2020%20mars.%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0ADate%20ou%20Titre%20du%20film%3A%0D%0A%0D%0ANombre%20de%20places%20(indiquer%20pr%C3%A9cis%C3%A9ment%20tarif%3A%20(normal%2015.%E2%80%94%20%2F%20soutien%2020.%E2%80%94%20%2F%20AVS%2C%20AI%2C%20en%20formation%2C%20ch%C3%B4mage%2012.%E2%80%94)%0D%0A%0D%0ANom%20et%20pr%C3%A9nom%20(1%20par%20r%C3%A9servation)%3A%0D%0A%0D%0ANum%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%3A%0D%0A%0D%0A%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%0D%0A%0D%0A%0D%0AMerci!"
-                    >billetterie@lecinematographe.ch</a>
-                    </p>
-                    <p>Merci d'indiquer clairement:</p>
-                    <ul>
-                        <li>la séance choisie (titre du film et date),</li>
-                        <li>le nombre de billets et tarifs (20 CHF soutien,</li>
-                        <li>15 CHF plein, 12 CHF réduit),</li>
-                        <li>ainsi que Nom/Prénom/Numero de téléphone par réservation.</li>
-                    </ul>
-
-                    <p>Paiement (cash, carte, twint) au moment du retrait au Cinématographe.</p>
                 </app-date>
 
 
