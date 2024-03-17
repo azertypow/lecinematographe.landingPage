@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "DIN Dong";
+    src:  url("DINdong.woff2") format("woff2"),
+    url("DINdong.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+:root {
+
+    --lc-color: #0438D6;
+
+    --lc-header-height: 4rem;
+
+
+    font-family: "DIN Dong", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #FFF;
+    background-color: #000;
+
+    font-synthesis: none;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 750px) {
+        font-size: 29px;
+    }
+}
+
+body {
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: min(100%, 25rem);
+}
+
+#app {
+    margin: 0 auto;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+
+h2 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding: 0;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    display: block;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    @media (max-width: 1100px) {
+        font-size: .8rem;
+        line-height: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    @media (max-width: 750px) {
+        font-size: .7rem;
+        line-height: .85rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+h6 {
+    line-height: 1rem;
+    font-size: .6rem;
+    font-weight: 400;
+    max-width: 35em;
+}
+
+a {
+    color: var(--lc-color);
+
+    &:before {
+        content: '>';
+    }
+
+    &:after {
+        content: '<';
+    }
+}
