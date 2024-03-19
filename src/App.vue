@@ -20,7 +20,8 @@
                         <br/>Ripples of Life (2021), en présence du réalisateur Wei Shujun
                     </p>
 
-                    <h4>Synopsis</h4>
+                    <h4>Synopsis
+                    <br>Âge légal 16, Âge suggéré 16</h4>
                     <p>
                         Un tournage a lieu dans la petite ville reculée de Yong’an. La venue de l’équipe du film bouleverse Gu, la patronne d’un petit restaurant. Elle rêve d’une autre vie et se fraie une place sur le tournage. Chen, devenue star de cinéma, revient dans sa ville natale où elle espère retrouver ses amie.x.s d'enfance et de bons souvenirs. Un débat sans fin persiste entre le réalisateur et le scénariste. Le tournage doit commencer, bien que le consensus ne soit jamais atteint
                     </p>
@@ -68,7 +69,8 @@
                         <br>20h : Blackbird Blackbird Blackberry (2023), avant-première en présence de lae réalisateurice Elene Naveriani, suivi d’un q&a
                     </p>
 
-                    <h4>Synopsis</h4>
+                    <h4>Synopsis
+                    <br>Âge légal 12, Âge suggéré 16</h4>
                     <p>Etero,48 ans, vit dans un petit village de Géorgie. Elle n'a jamais voulu de mari. Elle chérit sa liberté, mais son choix de vivre seule fait l’objet de nombreux commérages de la part du voisinage. Lorsqu’elle tombe passionnément amoureuse d'un homme, elle se retrouve contrainte de faire un choix - poursuivre cette relation ou continuer à mener une vie indépendante. Etero doit faire face à ses sentiments et tenter de trouver son propre chemin vers le bonheur.</p>
 
                     <h4>Lae cinéaste</h4>
